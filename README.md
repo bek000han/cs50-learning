@@ -6,6 +6,8 @@ This is CS50x, Harvard University's introduction to the intellectual enterprises
 
 Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, Python, SQL, and JavaScript plus CSS and HTML. 
 
+Students who earn a satisfactory score on 9 problem sets (i.e., programming assignments) and a final project are eligible for a certificate.
+
 ### **Acknowledgements**
 The course was created and curated by Harvard University's David Malan.<br>
 
