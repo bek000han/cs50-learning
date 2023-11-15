@@ -9,4 +9,5 @@ Topics include abstraction, algorithms, data structures, encapsulation, resource
 
 ### **Acknowledgements**
 The course was created and curated by Harvard University's David Malan.<br>
+
 All of my completed certificates are verified and can be viewed by using the links above.
