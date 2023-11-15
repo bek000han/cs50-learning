@@ -9,7 +9,7 @@ Topics include abstraction, algorithms, data structures, encapsulation, resource
 Students who earn a satisfactory score on 9 problem sets (i.e., programming assignments) and a final project are eligible for a certificate.
 
 ### **Acknowledgements**
-The course was created and curated by Harvard University's David Malan.<br>
+The course was created and curated by David Malan and his teaching team at Harvard University.<br>
 
 
 All of my completed certificates are verified and can be viewed by using the links above.
