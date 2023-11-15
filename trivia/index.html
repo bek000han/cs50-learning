@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section1">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What year was Star Wars: A New Hope released?</h3>
+                <div>
+                    <button id="b1" onClick="check(this.id)">1969</button>
+                    <button id="b2" onClick="check(this.id)">1977</button>
+                    <button id="b3" onClick="check(this.id)">1982</button>
+                    <button id="b4" onClick="check(this.id)">1973</button>
+                </div>
+                <p id="output1"></p>
+            </div>
+
+            <div class="section2">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>What is Darth Sidious' real last name?</h3>
+                <div>
+                <form>
+                    <input type="text" id="i1" name="answer">
+                </form>
+                <button id="b5" onClick="checkfield('i1')">Check Answer</button>
+                </div>
+                <p id="output2"></p>
+            </div>
+
+        </div>
+    </body>
+    <script>
+        // TODO: Add code to check answers to questions
+        function output(cond, field){
+            var output = document.getElementById(field);
+            if (cond == 1){
+                output.textContent = 'Correct!';
+            }
+            else{
+                output.textContent = 'Incorrect.';
+            }
+        }
+
+        function check(id){
+            var checker = document.getElementById(id);
+            if (id != 'b2'){
+                checker.style.backgroundColor = 'red';
+                output(0, 'output1')
+            }
+            else{
+                checker.style.backgroundColor = 'green';
+                output(1, 'output1')
+            }
+        }
+
+        function checkfield(id){
+            var checker = document.getElementById(id);
+            var answer = document.getElementById(id).value;
+            if (answer == 'Palpatine'){
+                checker.style.backgroundColor = 'green';
+                output(1, 'output2')
+            }
+            else{
+                checker.style.backgroundColor = 'red';
+                output(0, 'output2')
+            }
+        }
+    </script>
+</html>
