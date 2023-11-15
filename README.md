@@ -1,5 +1,5 @@
 # Harvard CS50x Course
-#### Certificate achieved. 
+### Certificate achieved. 
 ##### Verification link to the certificate: https://cs50.harvard.edu/certificates/12a0781f-dafa-4648-8a49-c14afadbae78 
 
 This is CS50x, Harvard University's introduction to the intellectual enterprises of computer science.
